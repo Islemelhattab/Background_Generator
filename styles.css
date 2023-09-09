@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+body{
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	top: 15%;
+	font-family: "Chilanka";
+	background: rgb(105, 76, 207);
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 3.5em;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	width: 100%;
+	padding: 8%;
+}
+ h2{
+	
+	padding: 3%;
+} 
+
+
+.colour {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+   }
+
+   .generate {
+    appearance: none;
+    background: none;
+    outline: none;
+    border: 5px solid #FFF;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    color: #FFF;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, transparent 50%, #ba2ecc 50%);
+    background-size: 100% 200%;
+    transition: 0.5s ease-out;
+    
+    cursor: pointer;
+   }
+   .generate:hover {
+    background-position: 0 100%;
+    box-shadow: inset 4px 4px rgba(0,0,0,0.2);
+    text-shadow: 4px 4px rgba(0,0,0,0.2);
+   }
